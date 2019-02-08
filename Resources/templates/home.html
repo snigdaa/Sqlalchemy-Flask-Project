@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <style>
+            head{
+                background-color:rgb(0, 0, 0);
+                font-size:60px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+            }
+            body{
+                background-color:maroon;
+                color:mintcream;
+                font-size: 14px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                text-align: center
+            }
+            h1{
+                background-color:rgb(0, 0, 0);
+                font-size:60px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                color:mintcream;
+            }
+            h2{
+                font-size:50px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                align-content: center;
+                color:mintcream
+            }
+            a.link{
+                text-align:center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color:mintcream;
+                text-decoration: none;
+            }
+            a.visited{
+                text-align:center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color:black;
+                text-decoration: none;
+            }
+            a.hover{
+                text-align:center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color:burlywood;
+                text-decoration: underline;
+            }
+            a.active{
+                text-align:center;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                color:crimson;
+                text-decoration: underline;
+            }
+        </style>
+        <h1>Welcome to the TripWeather application!</h1>
+        <!--f"Welcome to the TripWeather application!  "
+        f"Available Routes:<br/ "
+        f"/api/v1.0/precipitation  "
+        f"/api/v1.0/stations "
+        f"  List of stations collecting the weather  "
+        f"/api/v1.0/tobs "
+        f"  Returns the last year's dates and temperatures  "
+        f"/api/v1.0/start "
+        f"  Enter a start date where it says 'start' \
+        to see temp statistics since then "
+        f"  Date range ends on August 23 2017 "
+        f"  Enter dates in YYYY-MM-DD format  "
+        f"/api/v1.0/start/end "
+        f"  Enter a start and end date where it says 'start' \
+         and 'end' to get temp statistics for that range "
+        f"  Enter dates in YYYY-MM-DD format " -->
+    </head>
+
+<body>
+    <pre>
+    <h2>Available Routes:</h2>
+    
+    <a href="http://127.0.0.1:5000/api/v1.0/precipitation" target="_blank">api/v1.0/precipitation</a>  
+    All available Dates with the total precipitation on each day
+
+    <a href="http://127.0.0.1:5000/api/v1.0/stations" target= "_blank">/api/v1.0/stations </a>
+    List of stations collecting the weather
+    
+    <a href="http://127.0.0.1:5000/api/v1.0/tobs" target = "_blank"> /api/v1.0/tobs</a>    
+    Returns the last year's dates and temperatures  
+
+    <a href="http://127.0.0.1:5000/api/v1.0/start" target="_blank">/api/v1.0/start</a>
+    Enter a start date where it says 'start'to see temp statistics since then 
+    Date range ends on August 23 2017 
+    <strong>Enter dates in YYYY-MM-DD format</strong>
+
+    <a href="http://127.0.0.1:5000/api/v1.0/start/end" target="_blank">/api/v1.0/start/end </a>
+    Enter a start and end dates where it says 'start' and 'end' to get temp statistics for that range 
+    <strong>Enter dates in YYYY-MM-DD format </strong>
+    </pre>  
+    </body>
+</html>
